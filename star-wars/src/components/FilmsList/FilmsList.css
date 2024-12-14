@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poller One", serif;
+    background: url(../../Images/stormtrooper-from-the-epic-star-wars-saga-m9j3yycstsytbyz9.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 20px;
+  }
+  
+  li {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    flex: 1 1 300;
+    max-width: 400px;
+    border: 2px solid #fff; 
+
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px);
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  h2 {
+    text-align: center;
+    color: #FFE81F;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #FFE81F;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) {
+    ul {
+      gap: 30px;
+    }
+  
+    li {
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    li h3 {
+      font-size: 1.75rem;
+    }
+  }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  li {
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .loading p {
+    margin-left: 10px;
+  }
+  

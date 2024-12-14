@@ -1,0 +1,41 @@
+.filters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+  
+  .director-input, .sort-select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+  }
+  
+  .director-input:focus, .sort-select:focus {
+    border-color: #ffcc00;
+    outline: none;
+  }
+  
+  .apply-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #ffb800;
+  }
+  
