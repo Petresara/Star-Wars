@@ -23,7 +23,7 @@ git clone https://github.com/Petresara/Star-Wars.git
 
 ### 2. Navigate to the Project Directory
 
-cd your-repo-name
+cd Star-Wars
 
 ### 3. Install Dependencies
 
